@@ -8,6 +8,23 @@ body{
 
 .header{
     background-color: #1f2937;
+    color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    color: white;
+}
+
+.top-links{
+    display: inline;
 }
 
 .content{
@@ -21,6 +38,7 @@ body{
     color: white;
     height: 32px;
     margin-top: auto;
+    padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;

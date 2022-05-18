@@ -7,3 +7,4 @@ This item will display a basic understanding of the following:
 -Effective use of HTML tags
 -Styling with CSS
 -Creating the layout of the landing pages using flex-box
+
