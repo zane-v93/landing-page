@@ -11,22 +11,30 @@ body{
     color: white;
     padding: 16px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
+.logo{
+    font-weight: 800;
+    margin-left: 16px;
+}
+
+/*top link style*/
 a{
     text-decoration: none;
 }
-
+ul{
+    display: inline;
+}
 li{
+    display: inline;
     list-style: none;
     color: white;
 }
 
 .top-links{
-    display: inline;
+    margin-right: 16px;
 }
-
 .content{
     display: flex;
     flex-direction: column;
