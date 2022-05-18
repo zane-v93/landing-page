@@ -14,19 +14,20 @@ body{
     justify-content: space-between;
 }
 
-/* hero text div*/
+/* all hero divs*/
 .hero{
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+/*first container*/
 .hero-text{
-    background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 48px 0px 48px 48px;
-
+    margin: 16px;
+    padding: 48px 48px 48px 48px;
+    max-width: 300px;
 }
 h1{
     color: #f9faf8;
@@ -38,15 +39,18 @@ p {
 }
 button{
     align-self: flex-start;
+    background-color: #3882f6;
+    border-radius: 6px;
 }
+/*second container*/
 .hero-img{
     background-color: #1f2937;
     justify-content: center;
-    align-self: stretch;
+    align-self: center;
+    padding: 16px;
 }
-
 img{
-    width: 400px;
+    width: 250px;
 }
 
 .logo{
