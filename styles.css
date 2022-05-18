@@ -14,6 +14,41 @@ body{
     justify-content: space-between;
 }
 
+/* hero text div*/
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-text{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0px 48px 48px;
+
+}
+h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+p {
+    color: #e5e7eb;
+}
+button{
+    align-self: flex-start;
+}
+.hero-img{
+    background-color: #1f2937;
+    justify-content: center;
+    align-self: stretch;
+}
+
+img{
+    width: 400px;
+}
+
 .logo{
     font-weight: 800;
     margin-left: 16px;
@@ -24,17 +59,19 @@ a{
     text-decoration: none;
 }
 ul{
-    display: inline;
+    display: inline;  
 }
 li{
     display: inline;
     list-style: none;
-    color: white;
+    color: #e5e7eb;
 }
-
 .top-links{
     margin-right: 16px;
+    font-size: 18px;
 }
+
+
 .content{
     display: flex;
     flex-direction: column;
