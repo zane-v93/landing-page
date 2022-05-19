@@ -128,11 +128,10 @@ img{
 
 .call-to-action p{
     display: inline-block;
-    margin: 0;
+    margin: 0px 48px 0px 0px;
 }
 .call-to-action button{
     align-self: center;
-    background-color: aliceblue;
 }
 .footer{
     background-color: #1f2937;
