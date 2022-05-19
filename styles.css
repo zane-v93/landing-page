@@ -14,6 +14,25 @@ body{
     justify-content: space-between;
 }
 
+/*top link style*/
+a{
+    text-decoration: none;
+}
+ul{
+    display: inline;  
+}
+li{
+    display: inline;
+    list-style: none;
+    color: #e5e7eb;
+    padding-right: 24px;
+}
+.top-links{
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+
 /* all hero divs*/
 .hero{
     background-color: #1f2937;
@@ -57,29 +76,40 @@ img{
     font-weight: 800;
     margin-left: 16px;
 }
-
-/*top link style*/
-a{
-    text-decoration: none;
-}
-ul{
-    display: inline;  
-}
-li{
-    display: inline;
-    list-style: none;
-    color: #e5e7eb;
-}
-.top-links{
-    margin-right: 16px;
-    font-size: 18px;
+.on-show img{
+    height: 200px;
+    width: 200px;
 }
 
-
+/*exhibit container*/
 .content{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.Exhibits{
+    display: flex;
+    justify-content: center;
+}
+.exhibit-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.on-show{
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+/*quote container*/
+.quote{
+    background-color: #e5e7eb;
+    color: black;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .footer{
