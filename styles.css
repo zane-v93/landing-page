@@ -11,7 +11,7 @@ body{
     color: white;
     padding: 16px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /*top link style*/
@@ -73,7 +73,8 @@ img{
 }
 
 .logo{
-    font-weight: 800;
+    height: 150px;
+    width: 150px;
     margin-left: 16px;
 }
 .on-show img{
@@ -99,9 +100,11 @@ img{
 }
 .on-show{
     font-weight: 800;
+    padding: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /*quote container*/
@@ -112,6 +115,9 @@ img{
     font-style: italic;
 }
 
+.quote p{
+    color: #1f2937;
+}
 .footer{
     background-color: #1f2937;
     color: white;
